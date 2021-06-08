@@ -481,7 +481,6 @@ header {
 .theCitys .listCitys {
   display: flex;
   gap: 4rem;
-  width: 100%;
 }
 
 
@@ -545,6 +544,10 @@ header {
 }
 
 @media (max-width: 890px) {
+
+  .theCitys .listCitys {
+  flex-direction: column;
+  }
 
   .theCitys .listCitys li {
     display: flex;
