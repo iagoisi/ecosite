@@ -1,0 +1,58 @@
+
+
+.section_02_driver {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    background: #F1FBFB;
+    border-bottom: 4px solid #004821;
+}
+
+.schadule_section_02_driver {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.section_02_driver .text_e_cta_section_02_driver {
+    width: 100%;
+    align-self: center;
+    padding: 2em 0;
+    margin-bottom: 1.4em;
+}
+
+.text_e_cta_section_02_driver a {
+    cursor: pointer;
+    background: #2EA641;
+    border: none;
+    padding: 1.6em;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.section_02_driver .img_driver {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background: blue; */
+}
+
+.section_02_driver img {
+    display: flex;
+    object-fit: cover;
+    width: 70%;
+}
+
+.section_02_driver .text_section_02_driver h2 {
+    font-size: 3.4em;
+    line-height: 1.3em;
+}
+
+.section_02_driver .text_section_02_driver p {
+    font-size: 1.8em;
+    max-width: 400px;
+}
