@@ -1,28 +1,23 @@
-
-
-.section_02_driver {
+.driver {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 100px;
     background: #F1FBFB;
-    border-bottom: 4px solid #004821;
 }
 
-.schadule_section_02_driver {
+.schadule_driver {
     display: flex;
     width: 90%;
     justify-content: space-between;
 }
 
-.section_02_driver .text_e_cta_section_02_driver {
+.driver .text_e_cta_driver {
     width: 100%;
-    align-self: center;
-    padding: 2em 0;
-    margin-bottom: 1.4em;
+    margin-top: 2rem;
 }
 
-.text_e_cta_section_02_driver a {
+.text_e_cta_driver a {
     cursor: pointer;
     background: #2EA641;
     border: none;
@@ -33,26 +28,35 @@
     color: #FFF;
 }
 
-.section_02_driver .img_driver {
+.driver .img_driver {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    /* margin-top: 100px; */
     /* background: blue; */
 }
 
-.section_02_driver img {
+.driver img {
     display: flex;
     object-fit: cover;
     width: 70%;
+    height: 90%;
+    margin-top: 2rem;
 }
 
-.section_02_driver .text_section_02_driver h2 {
+.driver .text_driver h2 {
     font-size: 3.4em;
     line-height: 1.3em;
+    margin-bottom: 2rem;
 }
 
-.section_02_driver .text_section_02_driver p {
+.driver .text_driver p {
     font-size: 1.8em;
-    max-width: 400px;
+    max-width: 600px;
+    margin-bottom: 3rem;
+
 }
+
+
+/* ----------------------------------- SECTION_01 -----------------------------------*/
+
