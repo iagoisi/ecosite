@@ -5,13 +5,15 @@
     justify-content: center;
     margin-top: 100px;
     background: #F1FBFB;
+    padding: 0 2rem 2rem 2rem;
+
 }
 
 .schadule_driver {
     display: flex;
     width: 90%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .driver .text_e_cta_driver {
@@ -19,7 +21,8 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
 }
 
 .text_e_cta_driver a {
@@ -45,16 +48,13 @@
 .driver .img_driver {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    /* margin-top: 100px; */
-    /* background: blue; */
+    margin-left: 2rem;
 }
 
 .driver img {
     display: flex;
     object-fit: cover;
     border-radius: 0 0 15px 15px;
-    margin-bottom: 5rem;
     height: 90%;
 }
 
@@ -93,9 +93,8 @@
 }
 
 
+
 /* ----------------------------------- SECTION_02  -  THE CITYS -----------------------------------*/
-
-
 
   .theCitys_driver {
         display: flex;
@@ -185,30 +184,26 @@
 
 /* ----------------------------------- SECTION_03 -----------------------------------*/
 
-.section_03_driver {
-    display: flex;
-    justify-content: center;
-    margin: 4rem auto;
-    align-items: center;
-    /* background: tomato; */
-}
+  .section_03_driver {
+        display: flex;
+        justify-content: center;
+        margin: 4rem auto;
+        align-items: center;
+  }
 
-.section_03_driver a {
-    padding: 3rem;
-    background: #2EA641;
-    color: #FFF;
-    font-size: 3rem;
-}
+  .section_03_driver a {
+        padding: 2rem;
+        background: #2EA641;
+        color: #FFF;
+        font-size: 3rem;
+  }
 
-.section_03_driver a:hover {
-    border: solid 4px #004821;
-    background: none;
-    color: #004821;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-}
-
-
-
+  .section_03_driver a:hover {
+        border: solid 4px #004821;
+        background: none;
+        color: #004821;
+        box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  }
 
 
 
@@ -257,23 +252,44 @@
   
 @media (max-width: 800px) {
 
+
+
+/* ----------------------------------- DRIVER -----------------------------------*/
+
+    .driver {
+        padding: 0 0 4rem 0;
+    }
+
     .schadule_driver {
-        display: flex;
-        width: 90%;
         flex-direction: column;
-        justify-content: space-between;
+    }
+
+    .driver .img_driver {
+        justify-content: flex-end;
+        margin-left: 0;
     }
 
     .driver img {
-        width: 60%;
-        /* height: 80%; */
+        width: 90%;
+        border-radius: 2rem;
         align-self: flex-end;
+    }
+
+
+
+/* ----------------------------------- SECTION_01 -----------------------------------*/
+
+    .section_01 {
+        padding: 8rem 0;
     }
 
 
 
 /* ----------------------------------- SECTION_02 -----------------------------------*/
 
+    .section_02_driver h2 {
+        margin-bottom: 2rem;
+    }
     .theCitys_driver .listCitys_driver {
         flex-direction: column;
     }
