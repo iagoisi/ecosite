@@ -39,7 +39,6 @@ header {
   z-index: 10000;
 }
 
-
 #menu {
   display: flex;
   gap: .8rem;
@@ -157,8 +156,8 @@ header {
 }
 
 
-/*------------------------------- INTRO -----------------------------*/
 
+/*------------------------------- INTRO -----------------------------*/
 
 .introContainer {
   display: flex;
@@ -232,16 +231,17 @@ header {
 
 .introContainer a .cta .baixar {
   display: flex;
-  justify-content: space-between;
   align-self: flex-end;
+  align-items: center;
   margin-right: 1.5em;
   margin-bottom: 1.3em;
 } 
 
 .introContainer a .cta .baixar p {
-  margin-right: 1em;
-  font-size: 1.2em;
-  margin-bottom: 0.9em;
+  display: flex;
+  margin-right: 1rem;
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
 }
 
 .cta h2 {
@@ -255,9 +255,8 @@ header {
 }
 
 
+
 /* ----------------------------------- SECTION_01 -----------------------------------*/
-
-
 
 .section_01 {
   display: flex;
@@ -297,9 +296,9 @@ header {
   color: linear-gradient(#0C7E7E, #1A9452);
 }
 
+
+
 /* ----------------------------------- SECTION_02 -----------------------------------*/
-
-
 
 .section_02 {
   display: flex;
@@ -372,9 +371,9 @@ header {
   margin: .2em 0 2em 0;
 }
 
+
+
 /* ----------------------------------- SECTION_03 -----------------------------------*/
-
-
 
 .section_03 {
   display: flex;
@@ -412,9 +411,9 @@ header {
 
 }
 
+
+
 /* ----------------------------------- SECTION_04 -----------------------------------*/
-
-
 
 .section_04 {
   display: flex;
@@ -470,9 +469,9 @@ header {
   }
 }
 
+
+
 /* ----------------------------------- SECTION_04  -  THE CITYS -----------------------------------*/
-
-
 
 .theCitys {
   margin-bottom: 4em;
@@ -547,33 +546,40 @@ header {
 
 @media (max-width: 890px) {
 
-  .theCitys .listCitys {
+/* ----------------------------------- SECTION_02 -----------------------------------*/
+
+.theCitys .listCitys {
   flex-direction: column;
-  }
+}
 
-  .theCitys .listCitys li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 3em;
-    border: solid 2px #004821;
-    padding: 2em;
-  }
+.container_city {
+  flex-direction: column;
+}
 
-  .theCitys .listCitys .city .cardButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.theCitys .listCitys li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3em;
+  border: solid 2px #004821;
+  padding: 2em;
+}
 
-  }
+.theCitys .listCitys .city .cardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
-  .theCitys .listCitys .cardCity {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 2em;
-  }
+}
+
+.theCitys .listCitys .cardCity {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
 
 }
 
@@ -597,12 +603,11 @@ header {
     text-align: center;
   }
 
-
 }
 
 
-/* ----------------------------------- SECTION_05 -----------------------------------*/
 
+/* ----------------------------------- SECTION_05 -----------------------------------*/
 
 .section_05 {
   display: flex;
@@ -626,7 +631,6 @@ header {
   max-width: 400px;
   text-align: right;
 }
-
 
 .section_05 a {
   padding: 1em;
@@ -667,7 +671,6 @@ header {
 
 }
 
-
 @media (max-width: 500px) {
 
   .section_05 img {
@@ -676,8 +679,8 @@ header {
 }
 
 
-/* ----------------------------------- Footer -----------------------------------*/
 
+/* ----------------------------------- Footer -----------------------------------*/
 
 .footer {
   display: flex;
@@ -702,9 +705,9 @@ header {
   margin-left: 1em;
 }
 
+
+
 /* ----------------------------------- @MEDIA -----------------------------------*/
-
-
 
 @media (max-width: 800px) {
 
@@ -745,7 +748,6 @@ header {
       flex-direction: column;
   }
 
-
   .section_02 .img {
       width: 100%;
       display: flex;
@@ -764,12 +766,10 @@ header {
       border-radius: 5px;
   }
   
-
   .section_02 .text_section_02 h2 {
       font-size: 2.2em;
       margin-top: 2rem;
   }
-
 
   .section_02 img {
       border-radius: 5px;
@@ -815,11 +815,7 @@ header {
       font-size: 2.2em;
   }
 
-
-  
-
 } 
-
 
 @media (min-width: 800px) and (max-width: 900px) {
   .h1 h1 .bigText {
