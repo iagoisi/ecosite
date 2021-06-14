@@ -5,6 +5,7 @@
 body {
   align-items: center;
   background: #F1FBFB;
+  width: 100vw;
   height: 100vh;
   padding: 2rem;
 }
