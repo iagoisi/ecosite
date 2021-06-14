@@ -1,6 +1,13 @@
 :root {
   font-size: 62.5%;
 }
+h2 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2.4rem;
+}
 
 body, h1, h2, h3, ul, li, p, a {
   margin: 0px;
@@ -18,7 +25,8 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #000;
+  color: #FFF;
+  font-size: 2rem;
 }
 
 img {
@@ -36,7 +44,7 @@ header {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   height: 100px;
   width: 100%;
   position: fixed;
@@ -45,7 +53,7 @@ header {
 
 #menu {
   display: flex;
-  gap: .8rem;
+  gap: 3rem;
 }
 
 #menu li a {
@@ -55,7 +63,6 @@ header {
   text-decoration: none;
   font-family: "News Cycle";
   font-weight: bold;
-  font-size: 1.5em;
   letter-spacing: .1em;
 }
 
@@ -179,7 +186,7 @@ header {
   justify-content: flex-start;
 }
 
-.h1 h1 {
+.h1 div {
   max-width: 80%;
   padding-left: 1em;
   align-self: flex-start;
@@ -188,13 +195,15 @@ header {
   z-index: 2;
 }
 
-.h1 h1 .smallText {
-  font-size: 1em;
+.h1 .smallText {
+  font-size: 2.5rem;
+  max-width: 300px;
+  font-weight: normal;
 }
 
-.h1 h1 .bigText {
+.h1 .bigText {
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 5rem;
 }
 
 .introContainer .img {
@@ -212,9 +221,9 @@ header {
 }
 
 .introContainer a {
-  margin-right: -6rem;
+  margin-right: -7rem;
   align-self: flex-end;
-  margin-top: -2rem;
+  margin-top: -2.5rem;
   width: 226px;
   height: 237px;
   z-index: 2;
@@ -224,7 +233,7 @@ header {
 }
 
 .introContainer a:hover {
-  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .introContainer a .cta {
@@ -237,26 +246,25 @@ header {
   display: flex;
   align-self: flex-end;
   align-items: center;
-  margin-right: 1.5em;
-  margin-bottom: 1.3em;
+  margin-right: 1rem;
+  margin-top: 8rem;
 } 
 
 .introContainer a .cta .baixar p {
   display: flex;
   margin-right: 1rem;
-  font-size: 1.3em;
-  margin-bottom: 0.3em;
+  font-size: 2rem;
+  margin-bottom: .4rem;
 }
 
 .cta h2 {
-  margin-left: .8em;
-  margin-top: .8em;
-  margin-bottom: 2.4em;
+  display: flex;
+  align-self: flex-start;
+  font-size: 2.5rem;
+  margin-top: -3.5em;
+  font-weight: 400;
 }
 
-.cta p {
-  font-weight: normal;
-}
 
 
 
@@ -294,7 +302,7 @@ header {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   max-width: 345px;
   font-weight: bold;
   color: linear-gradient(#0C7E7E, #1A9452);
@@ -339,7 +347,6 @@ header {
   border: none;
   padding: 1.6em;
   margin-bottom: 2em;
-  font-size: 1.2em;
   letter-spacing: .1em;
   font-weight: bold;
   color: #FFF;
@@ -369,12 +376,11 @@ header {
 }
 
 .section_02 .text_section_02 h2 {
-  font-size: 3em;
+  /* font-size: 3em; */
   line-height: 1.3em;
 }
 
 .section_02 .text_section_02 p {
-  font-size: 1.5em;
   max-width: 400px;
   margin: .2em 0 2em 0;
 }
@@ -408,12 +414,10 @@ header {
 }
 
 .section_03 .text_section_03 h2 {
-  font-size: 3em;
   text-align: right;
 }
 
 .section_03 .text_section_03 p {
-  font-size: 2em;
   margin-left: 1em;
   max-width: 400px;
   text-align: right;
@@ -456,7 +460,6 @@ header {
 
 .section_04 .text_section_04 h2 {
   display: flex;
-  font-size: 3em;
   margin: 1rem 0 .5em 0;
   justify-content: center;
   text-align: center;
@@ -465,10 +468,9 @@ header {
 }
 
 .section_04 .text_section_04 p {
-  font-size: 1.3em;
   text-align: center;
   align-self: center;
-  max-width: 50%;
+  max-width: 60%;
   margin-bottom: 4rem;
 }
 
@@ -501,7 +503,6 @@ header {
 
 .card_city h2 {
   margin: 1rem auto;
-  font-size: 2.6rem;
 }
 
 .container_city {
@@ -528,10 +529,10 @@ header {
   text-align: center;
   color: #FFF;
   letter-spacing: .1em;
-  font-size: 1.2rem;
   margin: 2rem auto;
   border: solid 4px #F1FBFB;
   font-weight: bold;
+  margin-bottom: 3rem;
 }
 
 .content_city a:hover {
@@ -580,7 +581,7 @@ header {
 }
 
 .cta_section_05 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
   max-width: 400px;
   text-align: right;
@@ -589,7 +590,6 @@ header {
 .section_05 a {
   padding: 1em;
   width: 200px;
-  font-size: 1.2em;
   letter-spacing: .1em;
   font-weight: bold;
   color: #FFF;
@@ -643,6 +643,7 @@ header {
   height: 60px;
   align-items: center;
   justify-content: space-between;
+  padding: 0 2rem;
 }
 
 .footer a {
@@ -660,8 +661,10 @@ header {
 }
 
 .footer p {
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
   color: white;
-  margin-right: 1em;
+  /* margin-right: 1em; */
   text-align: right;
 }
 
@@ -677,26 +680,25 @@ header {
 
 @media (max-width: 800px) {
 
-  .h1 h1 {
-    margin-top: 40px;
-    align-self: flex-start;
-    font-weight: normal;
-    z-index: 2;
-  }
-  .h1 h1 {
+
+/* ----------------------------------- INTRO -----------------------------------*/
+
+  .h1 {
     max-width: 100%;
-    margin-top: 1em;
+    margin-top: -7rem;
     padding: 1em;
 
   }
 
-  .h1 h1 .bigText {
-    font-size: 1em;
+  .h1 .bigText {
+    font-size: 3rem;
   }
 
-  .h1 h1 .smallText {
-    font-size: .7em;
+  .h1 .smallText {
+    font-size: 1.6rem;
   }
+
+/* ----------------------------------- SECTION_01 -----------------------------------*/
 
   .section_01 {
       display: flex;
@@ -706,6 +708,10 @@ header {
       flex-wrap: wrap;
       margin: 6em 0 4em 0;
   }  
+
+
+
+/* ----------------------------------- SECITON_02 -----------------------------------*/
 
   .schadule_section_02 {
       display: flex;
@@ -729,11 +735,10 @@ header {
   }
 
   .section_02 .img img {
-      border-radius: 5px;
+      border-radius: 2rem;
   }
   
   .section_02 .text_section_02 h2 {
-      font-size: 2.2em;
       margin-top: 2rem;
   }
 
@@ -744,10 +749,10 @@ header {
   .section_02 .text_e_cta_section_02 {
       padding: 0;
   }
+  
 
-  .section_02 .text_section_02 p {
-      font-size: 1.2em;
-  }
+
+/* ----------------------------------- SECITON_03 -----------------------------------*/
 
   .section_03 {
       margin: 1.5em 0;
@@ -765,33 +770,24 @@ header {
   }
 
   .section_03 .text_section_03 h2 {
-      font-size: 2.2em;
       line-height: 1.4rem;
       margin: 1em 0;
       text-align: right;
   }
   
   .section_03 .text_section_03 p {
-      font-size: 1.2em;
       max-width: 400px;
       margin-left: 1rem; 
   }
 
-  .section_04 .text_section_04 h2 {
-      font-size: 2.2em;
+
+/* ----------------------------------- SECITON_05 -----------------------------------*/
+  .section_05 h2 {
+    font-size: 4rem;
   }
 
 } 
 
-@media (min-width: 800px) and (max-width: 900px) {
-  .h1 h1 .bigText {
-    font-size: 1.5em;
-  }
-
-  .h1 h1 .smallText {
-    font-size: 1em;
-  }
-}
 
 
 
