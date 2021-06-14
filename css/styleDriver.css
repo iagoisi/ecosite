@@ -1,9 +1,12 @@
+body {
+    background: #F1FBFB;
+}
+
 .driver {
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     margin-top: 100px;
+    height: 100%;
     background: #F1FBFB;
     padding: 0 2rem 2rem 2rem;
 
@@ -75,123 +78,139 @@
 
 /* ----------------------------------- SECTION_01 -----------------------------------*/
 
-.section_01 {
+.section_01_driver {
     display: flex;
+    justify-content: center;
     align-self: center;
-    max-width: 80%;
-    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: #FFF;
+    padding: 4rem;
 }
 
-.section_01 img {
-    width: 30%;
-    margin: 0 auto;
+.container_section_01_driver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 90%;
 }
 
-.text_section_01 h2 {
+.section_01_driver img {
+    width: 20%;
+}
+
+.section_01_driver h2 {
     font-size: 3rem;
     max-width: 400px;
 }
 
 
-
 /* ----------------------------------- SECTION_02  -  THE CITYS -----------------------------------*/
 
-  .theCitys_driver {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #F1FBFB;
-  }
-
-  .theCitys_driver h2 {
-      font-size: 3rem;
-      margin-top: 2rem;
-      max-width: 550px;
-      text-align: center;
-  }
-
-  .theCitys_driver .listCitys_driver {
+  .section_02_driver {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-  
-  .theCitys_driver .listCitys_driver li {
-    display: flex;
-    flex-direction: column;
+    align-self: center;
     justify-content: center;
-    margin: 3rem auto 5rem auto;
-    border: solid 2px #004821;
-    padding: 2em;
+    width: 90%; 
   }
 
-  .container_city {
-      display: flex;
-      width: 90%;
-      gap: 4rem;
-  }
-
-  .theCitys_driver .listCitys_driver .city_driver h2 {
-    font-size: 2.6em;
-    margin-top: -.5em;
-    margin-bottom: 1rem;
+  .the_citys_driver {
+    padding: 4rem 0;
   }
   
-  .theCitys_driver .listCitys_driver .cardCity_driver {
+  .list_citys_driver {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    width: 80%;
-    margin-bottom: 2rem;
+    gap: 4rem;
   }
   
-  .theCitys_driver .listCitys_driver .cardCity_driver img {
-    width: 20%;
-    margin-bottom: 1rem;
-  }
-  
-  .theCitys_driver .listCitys_driver .city_driver .cardButton_driver {
+  .card_city_driver {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    border: solid 4px #004821;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  .card_city_driver h2 {
+    margin: 1rem auto;
+    font-size: 2.6rem;
+  }
+  
+  .container_city_driver {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
     align-items: center;
   }
   
-  .theCitys_driver .listCitys_driver .city_driver .cardButton_driver a {
-    padding: 1em;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    font-weight: bold;
-    color: #FFF;
-    background: #2EA641;
-    text-align: center;
+  .content_city_driver {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-
-  .theCitys_driver .listCitys_driver .city_driver .cardButton_driver a:hover {
+  
+  .content_city_driver .map_driver {
+    width: 500px;
+    height: 250px;
+  }
+  
+  .content_city_driver a {
+    background: #2EA641;
+    padding: 1rem;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: .1em;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    border: solid 4px #F1FBFB;
+    font-weight: bold;
+  }
+  
+  .content_city_driver a:hover {
     border: solid 4px #004821;
     background: none;
     color: #004821;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
-  }  
-  
-  .theCitys_driver .listCitys_driver .cardCity_driver {
-    align-items: center;
   }
-
-
+  
+  @media (max-width: 1100px) {
+  
+    .content_city_driver .map_driver {
+      width: 100%;
+      height: 150px;
+    }
+    
+  
+  }
+  
+  @media (max-width: 700px) {
+  
+    .container_city_driver {
+      flex-direction: column;
+    }
+  
+  }
+  
 
 /* ----------------------------------- SECTION_03 -----------------------------------*/
 
   .section_03_driver {
         display: flex;
         justify-content: center;
-        margin: 4rem auto;
+        margin: 5rem auto 9rem auto;
         align-items: center;
+        background: red;
   }
 
-  .section_03_driver a {
+  .section_03 div {
+      background:#004821;
+  }
+
+  .section_03_driver  a {
         padding: 2rem;
         background: #2EA641;
         color: #FFF;
@@ -200,7 +219,7 @@
 
   .section_03_driver a:hover {
         border: solid 4px #004821;
-        background: none;
+        background: #F1FBFB;
         color: #004821;
         box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
   }
@@ -226,28 +245,6 @@
     }
 
 
-
-    /* ----------------- SECTION_02_DRIVER ----------------- */
-  
-    .theCitys_driver .listCitys_driver .cardCity_driver {
-      display: flex;
-      align-items: center;
-      justify-content: center;;
-      flex-direction: column;
-    }
-  
-  
-    .theCitys_driver .listCitys_driver .cardCity_driver img {
-      width: 70%;
-      margin-right: 0;
-      align-self: center;
-      margin-bottom: 1em;
-    }
-  
-    .theCitys_driver .listCitys_driver .cardCity_driver .textCity_driver {
-      text-align: center;
-    }
-  
   }
   
 @media (max-width: 800px) {
@@ -282,46 +279,6 @@
     .section_01 {
         padding: 8rem 0;
     }
-
-
-
-/* ----------------------------------- SECTION_02 -----------------------------------*/
-
-    .section_02_driver h2 {
-        margin-bottom: 2rem;
-    }
-    .theCitys_driver .listCitys_driver {
-        flex-direction: column;
-    }
-
-    .container_city {
-        flex-direction: column;
-    }
-      
-    .theCitys_driver .listCitys_driver li {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 3em;
-        border: solid 2px #004821;
-        padding: 2em;
-    }
-    
-    .theCitys_driver .listCitys_driver .city_driver .cardButton_driver {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    
-    }
-    
-    .theCitys_driver .listCitys_driver .cardCity_driver {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin-bottom: 2em;
-    }
-
 
 
 }
