@@ -1,14 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: #F1FBFB;
 }
 
-.driver {
+.driver_driver {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    width: 100%;
     height: 100%;
     background: #F1FBFB;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 0 2rem 0;
 
 }
 
@@ -19,7 +25,7 @@ body {
     align-items: flex-start;
 }
 
-.driver .text_e_cta_driver {
+.driver_driver .text_e_cta_driver {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,26 +54,26 @@ body {
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
-.driver .img_driver {
+.driver_driver .img_driver {
     width: 100%;
     display: flex;
     margin-left: 2rem;
 }
 
-.driver img {
+.driver_driver img {
     display: flex;
     object-fit: cover;
     border-radius: 0 0 15px 15px;
     height: 90%;
 }
 
-.driver .text_driver h2 {
+.driver_driver .text_driver h2 {
     font-size: 3.4em;
     line-height: 1.3em;
     margin-bottom: 2rem;
 }
 
-.driver .text_driver p {
+.driver_driver .text_driver p {
     font-size: 1.8em;
     max-width: 600px;
     margin-bottom: 5rem;
@@ -82,10 +88,11 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 100%;
     align-items: center;
+    width: 100%;
     background: #FFF;
-    padding: 4rem;
+    padding: 4rem 0;
+    /* margin: 1rem auto; */
 }
 
 .container_section_01_driver {
@@ -94,16 +101,21 @@ body {
     justify-content: center;
     gap: 3rem;
     width: 90%;
+    height: 100%;
 }
 
 .section_01_driver img {
+    display: flex;
+    align-self: center;
     width: 20%;
 }
 
 .section_01_driver h2 {
     font-size: 3rem;
     max-width: 400px;
+    text-align: right;
 }
+
 
 
 /* ----------------------------------- SECTION_02  -  THE CITYS -----------------------------------*/
@@ -157,6 +169,17 @@ body {
     width: 500px;
     height: 250px;
   }
+
+  @media(max-width: 1300px) {
+
+
+  .content_city_driver .map_driver {
+    width: 300px;
+    height: 250px;
+  }
+
+
+  }
   
   .content_city_driver a {
     background: #2EA641;
@@ -196,14 +219,16 @@ body {
   }
   
 
+
 /* ----------------------------------- SECTION_03 -----------------------------------*/
 
   .section_03_driver {
         display: flex;
         justify-content: center;
-        margin: 5rem auto 9rem auto;
         align-items: center;
-        background: red;
+        width: 100%;
+        height: 250px;
+        background: #FFF;
   }
 
   .section_03 div {
@@ -223,6 +248,18 @@ body {
         color: #004821;
         box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
   }
+
+
+
+/* ----------------------------------- SECTION_03 -----------------------------------*/
+
+.section_04_driver {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 3rem 0;
+    width: 90%;
+}
 
 
 
@@ -253,7 +290,7 @@ body {
 
 /* ----------------------------------- DRIVER -----------------------------------*/
 
-    .driver {
+    .driver_driver {
         padding: 0 0 4rem 0;
     }
 
@@ -261,12 +298,12 @@ body {
         flex-direction: column;
     }
 
-    .driver .img_driver {
+    .driver_driver .img_driver {
         justify-content: flex-end;
         margin-left: 0;
     }
 
-    .driver img {
+    .driver_driver img {
         width: 90%;
         border-radius: 2rem;
         align-self: flex-end;
@@ -278,6 +315,30 @@ body {
 
     .section_01 {
         padding: 8rem 0;
+    }
+
+    .container_section_01_driver {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 90%;
+        height: 100%;
+    }
+
+    .container_section_01_driver img {
+        width: 80%;
+    }
+
+
+/* ----------------------------------- SECTION_03 -----------------------------------*/
+
+    .section_03_driver  a {
+        padding: 2rem;
+        background: #2EA641;
+        color: #FFF;
+        font-size: 1.5rem;
     }
 
 
